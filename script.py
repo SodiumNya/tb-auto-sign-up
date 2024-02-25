@@ -8,8 +8,11 @@ import yagmail
 from bs4 import BeautifulSoup
 
 myCookies = {
-    "Cookie": "MCITY=-104%3A; BAIDU_WISE_UID=wapp_1702228420445_268; ZD_ENTRY=bing; wise_device=0; USER_JUMP=-1; Hm_lvt_98b9d8c2fd6608d564bf2ac2ae642948=1708459074,1708845964; st_key_id=17; arialoadData=false; BAIDU_SSP_lcr=https://cn.bing.com/; ariawapForceOldFixed=false; IS_NEW_USER=c45bea22c73c12925965d0a5; 5494148441_FRSVideoUploadTip=1; video_bubble5494148441=1; ZFY=wapNp:BlIJcbXTmhuBn:BBakbQYlp0V7SrgKvGx9VyJa4:C; showCardBeforeSign=1; rpln_guide=1; BAIDUID=1B2C41F1CCCE1D3DCCA27A6C4AF69097:FG=1; BAIDUID_BFESS=1B2C41F1CCCE1D3DCCA27A6C4AF69097:FG=1; mo_originid=2; CLIENTWIDTH=375; CLIENTHEIGHT=667; XFI=96d2fd30-d3c2-11ee-a5c4-4f488bd9b7db; st_data=d958b2ed9fe47cfff9cf27cf553a7ae11ae2be97b11a101b21ac2974272b0a4fbeace7bec965c4b0a573fe25812824ce67d911ed2339b1378b4a6c269497148b444604678093320b1a2ea13ff9180c39de744d1f2e63f90bef1cb5849138922b875fb13df4ef09d0554775680f75265bb63fa6ad16feaaf0336bd5fc7bfa5ceb2d65d4613d78fb930b0b19c5e4835d46; st_sign=fde803af; XFCS=1A0991CC60DADC17C41A1F4F39E76E5FEF6414F3AC6B381EC21DD6A8A6868024; XFT=ZLAxPyLX+6HTxDiuxeXSL9m2ouFuLxW2Y90BIBUztPQ=; tb_as_data=9c5197d2dc558c5010005f07a999dc4942a7a201c11c80b6f7a80794d03df7aa63650d25831140c2bbd2f9251610c8dfa6cb06243dd81feab5caebfa2957d1fa780e4db6789c451bead9e50070b9307afca3b975ccb60039785c81fa11994f6ea172be69ffebe154b1d852455bc2b15b; Hm_lpvt_98b9d8c2fd6608d564bf2ac2ae642948=1708855919; ab_sr=1.0.1_ZjI4OTQwYTliOTA1OGUxNGIyM2MzZWNhMGMyNWM1NDg3YTI2Zjc3MWIxZGRkZjU0NmY2YTI5Yzg3M2M3OWQxMmQwYzQyMWZkMzBlNjMxYWY0NWY3ZWQ2YjYzMWRiZGUwM2JkYTEwNWNjNDBlMDRmY2YzMDQ4OWRiMjY4YTc4NDFmYzE1MGNiOGU1Zjc4ZWQ5MWVkZGZmZTdkMTA3Yzk4ZA==; BDUSS=5ucTdVbVRMeVM2SDUtWmdDTEhmfm5SM0RRdVZOTFZkWEZyMTN0TmJPdXhud0ptSVFBQUFBJCQAAAAAAQAAAAEAAABZDXpHwfK0-MHyy-HExQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALES22WxEttlY0; RT=\"z=1&dm=baidu.com&si=16f88d0e-9d9a-4335-9cf9-3b255f15bc89&ss=lt16riqs&sl=m&tt=2ko1&bcn=https%3A%2F%2Ffclog.baidu.com%2Flog%2Fweirwood%3Ftype%3Dperf&ld=61cbp&ul=62pg0&hd=62pg9\"; STOKEN=17e02db3e4ceb34c9f190869c52b18171a075c9b020965d9690acb2ffa8e78cb"
+
+    "Cookie": "###" #将###替换为你的cookie
 }
+
+
 
 
 def run():
@@ -152,10 +155,11 @@ def send_sign_up_report_email(success_count, fail_dict):
     """
     # 连接服务器
     # 用户名、授权码、服务器地址
-    yag_server = yagmail.SMTP(user='wang.qi183@foxmail.com', password='mnjgpclqjxjydedg', host='smtp.qq.com')
+    # 请将 'your email', 'SMTP authorization code','your email host' 替换为你的真实用户名、授权码、服务器地址
+    yag_server = yagmail.SMTP(user='your email', password='SMTP authorization code', host='your email host')
 
-    # 发送对象列表
-    email_to = ['1835014947@qq.com']
+    # 发送对象列表, 将报告发送到如下 邮箱， 请将your email 替换为你想要收到报告的邮箱
+    email_to = ['your email']
     email_title = '贴吧自动签到报告'
 
     email_content = f"""
