@@ -10,8 +10,8 @@
 https://github.com/SodiumNya/tb-auto-sign-up.git
 
 ```
-#### 也许你需要安装依赖， 那么本项目应该仅需要以下三个库
-#### 其他问题可尝试自己解决或联系我sodiumnya@gmail.con
+#### 也许你需要安装依赖， 那么本项目应该仅需要以下三个库：
+
 ```bash
 pip install requests
 
@@ -20,6 +20,9 @@ pip install yagmail
 pip install BeautifulSoup4
 
 ```
+
+#### 其他问题可尝试自己解决或联系我sodiumnya@gmail.con
+
 #### 依赖没有问题后，接下来你可以按照以下步骤操作：
 
 #### 在scrpit.py中做如下修改：
