@@ -12,7 +12,9 @@ https://github.com/SodiumNya/tb-auto-sign-up.git
 #### 其他问题可尝试自己解决或联系我sodiumnya@gmail.con
 ```bash
 pip install requests
-pip install requests
+
+pip install yagmail
+
 pip install BeautifulSoup4
 
 ```
