@@ -26,11 +26,11 @@ pip install BeautifulSoup4
 
    ![e27f6a725375cfd4388ac978663fa94a.png](https://i.miji.bid/2024/02/26/e27f6a725375cfd4388ac978663fa94a.png)
 
-2. 将**邮箱地址、授权码、host** 修改为真实的**邮箱地址、授权码、host**
+2. 将**邮箱地址、授权码、host** 修改为真实的**邮箱地址、授权码、host**：
 
    ![e9e4d28e31faeb4191bfa7b0316fc1fe.png](https://i.miji.bid/2024/02/26/e9e4d28e31faeb4191bfa7b0316fc1fe.png)
 
-3. 将要接收签到报告的邮箱填入**email_to**， 这是一个**list**， 你可以添加多个， 或仅保留一个：
+3. 将要接收签到报告的邮箱填入**email_to**， 这是一个**list**，你可以添加多个，或仅保留一个：
 
    ![4a76986d1a3b2c5f1420e2c979f4c84f.png](https://i.miji.bid/2024/02/26/4a76986d1a3b2c5f1420e2c979f4c84f.png)
    
