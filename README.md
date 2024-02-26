@@ -21,7 +21,7 @@ pip install BeautifulSoup4
 
 ```
 
-#### 其他问题可尝试自己解决或联系我sodiumnya@gmail.con
+#### 其他问题可尝试自己解决或联系我sodiumnya@gmail.com
 
 #### 依赖没有问题后，接下来你可以按照以下步骤操作：
 
@@ -88,7 +88,7 @@ python3 /root/tb-auto-sign-up/main.py
 
 4. 完成以上步骤后，就能实现百度贴吧自动签到.
 
-如果遇到任何问题，可以联系我sodiumnya@gmail.con或者提出issue.
+如果遇到任何问题，可以联系我sodiumnya@gmail.com或者提出issue.
 
 
 
